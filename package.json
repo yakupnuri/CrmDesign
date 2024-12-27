@@ -1,0 +1,65 @@
+{
+  "name": "freelancer-crm",
+  "version": "1.0.0",
+  "description": "Freelancer Graphic Design CRM",
+  "main": "main.js",
+  "proxy": "http://localhost:5000",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "electron-dev": "electron .",
+    "server": "nodemon server/index.js",
+    "dev": "concurrently \"npm run server\" \"npm start\" \"npm run electron-dev\""
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fullcalendar/core": "^6.1.10",
+    "@fullcalendar/daygrid": "^6.1.10",
+    "@fullcalendar/react": "^6.1.10",
+    "@googleapis/calendar": "^9.7.9",
+    "@mui/icons-material": "^5.15.1",
+    "@mui/lab": "^5.0.0-alpha.153",
+    "@mui/material": "^5.15.1",
+    "@mui/x-date-pickers": "^5.0.20",
+    "@react-oauth/google": "^0.12.1",
+    "axios": "^1.6.2",
+    "chart.js": "^4.4.1",
+    "concurrently": "^8.2.2",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.3.1",
+    "electron": "^28.0.0",
+    "express": "^4.18.2",
+    "i18next": "^23.7.11",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.11.3",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-i18next": "^13.5.0",
+    "react-number-format": "^5.3.1",
+    "react-router-dom": "^6.21.1",
+    "react-scripts": "5.0.1",
+    "sequelize": "^6.35.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.23.6",
+    "@babel/preset-react": "^7.23.6",
+    "nodemon": "^3.0.2"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

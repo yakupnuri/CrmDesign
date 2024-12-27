@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text { font-family: Arial, sans-serif; font-size: 72px; fill: #4CAF50; }
+        .accent { fill: #4CAF50; }
+    </style>
+    <text x="20" y="120" class="text">Egao</text>
+    <text x="100" y="160" class="text" style="font-size: 36px;">Lab.</text>
+    <path class="accent" d="M160 40 Q 180 40 180 60 L 180 80 Q 160 80 160 60 Z"/>
+</svg>

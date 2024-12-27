@@ -1,0 +1,50 @@
+.fc {
+  background: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.fc-header-toolbar {
+  margin-bottom: 1.5em !important;
+}
+
+.fc-toolbar-title {
+  font-size: 1.2em !important;
+  font-weight: 500 !important;
+}
+
+.fc-button {
+  background-color: #1976d2 !important;
+  border-color: #1976d2 !important;
+}
+
+.fc-button:hover {
+  background-color: #1565c0 !important;
+  border-color: #1565c0 !important;
+}
+
+.fc-button-active {
+  background-color: #1565c0 !important;
+  border-color: #1565c0 !important;
+}
+
+.fc-day-today {
+  background-color: #e3f2fd !important;
+}
+
+.fc-event {
+  background-color: #1976d2;
+  border: none;
+  padding: 2px 5px;
+  font-size: 0.85em;
+  border-radius: 3px;
+}
+
+.fc th {
+  padding: 10px 0;
+  font-weight: 500;
+}
+
+.fc td {
+  border-color: #e0e0e0;
+}

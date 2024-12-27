@@ -1,0 +1,69 @@
+{
+  "dashboard": {
+    "title": "Ana Sayfa",
+    "stats": {
+      "totalCustomers": "Toplam Müşteri",
+      "totalRevenue": "Toplam Gelir",
+      "totalWorkHours": "Toplam Çalışma Saati",
+      "activeProducts": "Aktif Ürün"
+    },
+    "calendar": {
+      "title": "İş Takvimi",
+      "deadline": "Teslim Tarihi",
+      "startDate": "Başlangıç Tarihi"
+    },
+    "recentActivities": "Son Aktiviteler"
+  },
+  "projects": {
+    "title": "Projeler",
+    "newProject": "Yeni Proje",
+    "status": {
+      "proposal": "Teklif Aşamasında",
+      "in_progress": "Devam Ediyor",
+      "revision": "Revizyon",
+      "completed": "Tamamlandı"
+    },
+    "fields": {
+      "name": "Proje Adı",
+      "client": "Müşteri",
+      "startDate": "Başlangıç Tarihi",
+      "deadline": "Teslim Tarihi",
+      "status": "Durum",
+      "progress": "İlerleme"
+    }
+  },
+  "customers": {
+    "title": "Müşteriler",
+    "newCustomer": "Yeni Müşteri",
+    "fields": {
+      "name": "Ad Soyad",
+      "email": "E-posta",
+      "phone": "Telefon",
+      "company": "Firma"
+    }
+  },
+  "products": {
+    "title": "Ürünler ve Hizmetler",
+    "newProduct": "Yeni Ürün/Hizmet",
+    "fields": {
+      "name": "Ürün/Hizmet Adı",
+      "description": "Açıklama",
+      "price": "Fiyat",
+      "type": "Tür",
+      "status": "Durum"
+    }
+  },
+  "common": {
+    "actions": "İşlemler",
+    "edit": "Düzenle",
+    "delete": "Sil",
+    "save": "Kaydet",
+    "cancel": "İptal",
+    "currency": "Para Birimi",
+    "currencies": {
+      "TRY": "₺ TL",
+      "USD": "$ USD",
+      "EUR": "€ EUR"
+    }
+  }
+}

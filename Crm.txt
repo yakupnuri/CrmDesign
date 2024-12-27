@@ -1,0 +1,117 @@
+1. Ana Sayfa Paneli (Dashboard ile Birleşik)
+
+Genel Görünüm:
+	•	Ana sayfa, kullanıcıların CRM’e giriş yaptıklarında tüm önemli bilgilere erişebilecekleri tek bir panel olarak tasarlanır.
+	•	Dashboard ile birleştirilmiştir ve aşağıdaki öğeleri içerir:
+	•	Toplam Müşteri Sayısı: CRM’de kayıtlı tüm müşterilerin sayısı.
+	•	Toplam Gelir: Mevcut mali dönemde elde edilen toplam gelir.
+	•	Toplam Çalışma Saati: Tüm projeler için harcanan toplam çalışma saatini görüntüler.
+	•	Aktif Ürün Sayısı: Şu anda satışta veya kullanımda olan ürünlerin sayısını listeler.
+	•	Son Faturalar: En son oluşturulan veya gönderilen faturaları gösterir.
+	•	Son Çalışma Kayıtları: Yeni tamamlanan veya devam eden işlerin kaydı.
+
+İş Takvimi:
+	•	Teslim tarihleri ve başlangıç tarihlerini gösteren bir takvim.
+	•	Deadline’lar kırmızı, başlangıç tarihleri ise daha yumuşak renklerle işaretlenir.
+	•	Google Takvim Entegrasyonu: Tüm önemli tarihler Google Takvim ile senkronize edilebilir.
+
+2. Proje Paneli
+
+a. Projelerin Listesi
+	•	Mevcut projelerin tüm detaylı listesi.
+	•	Teslim tarihi, proje durumu (tamamlanmış, devam ediyor, beklemede vb.) ve ilgili müşteri bilgileri görüntülenebilir.
+	•	Projelerin ilerleme durumları görsel bir işaretleme ile gösterilir (teklif aşamasında, devam ediyor, teslim edildi vb.).
+	•	Projeler liste üzerinden seçilerek detayları görüntülenebilir.
+
+b. Yeni Proje ve Teklif Hazırlama
+	•	Yeni Proje Ekle:
+	•	Manuel olarak yeni bir proje oluşturma.
+	•	Proje ismi, başlangıç ve teslim tarihleri, atanacak müşteri, ürün ve hizmetler girilebilir.
+	•	Teklif Hazırlığı:
+	•	Proje teklifleri hazırlanıp kaydedilebilir.
+	•	Teklifte fiyatlandırma, hizmet açıklaması, teslim süresi gibi bilgiler yer alır.
+	•	“Teklifi Onayla” düğmesiyle, müşteri teklifi onayladığında bu teklif bir projeye dönüşür ve proje paneline otomatik olarak eklenir.
+
+c. Müşteri ve Proje Eşleştirme
+	•	Proje oluşturulurken veya düzenlenirken bir müşteri projeye atanabilir (assign).
+
+d. Proje İlerlemesi ve Durum Filtreleme
+	•	Projelerin durumu (teklif aşamasında, devam ediyor, tamamlanmış vb.) filtrelenebilir.
+	•	Proje ilerleme aşamaları görsel bir zaman çizelgesi veya durum simgeleriyle takip edilebilir.
+	•	Proje ilerleme durumları:
+	•	Teklif Aşamasında
+	•	Devam Ediyor
+	•	Revizyon Sürecinde
+	•	Tamamlandı
+
+e. Ürün ve Hizmet Entegrasyonu
+	•	Projeye entegre edilebilecek ürün ve hizmetler, ürün panelinden çekilerek atanabilir.
+	•	Ürün ve hizmetler proje detaylarında listelenir ve projeye otomatik olarak entegre edilir.
+
+f. Proje Teslim ve Sonlandırma
+	•	Revizyon Süreci:
+	•	Projeye ait revizyonlar eklenir ve takip edilir.
+	•	Revizyon tarihleri ve içerikleri proje detaylarında kaydedilir.
+	•	Proje Teslimi:
+	•	Müşteriye nihai dosyalar veya proje teslim edildikten sonra, proje sonlandırma işlemi başlatılır.
+	•	Proje Sonlandır ve Kayıt Altına Al:
+	•	Proje kapatılır ve ilgili tüm bilgiler (müşteri adı, ürün ve hizmetler, teslim tarihi) kayıt altına alınır.
+	•	Projenin tamamlandığı tarih ve teslim edilen son dosyaların listesi sisteme kaydedilir.
+	•	“Tamamlanan Projeler” altında arşivlenir ve gerektiğinde geçmiş kayıtlar görüntülenebilir.
+
+g. Örnek İş Akışı:
+	1.	Proje Paneline Giriş:
+	•	Proje listesi görüntülenir ve yeni bir proje eklenir.
+	2.	Teklif Hazırlığı ve Onay:
+	•	Müşteriye teklif hazırlanır ve onaylandığında proje otomatik olarak oluşturulur.
+	3.	Müşteri ve Ürün Ekleme:
+	•	Proje detayları sayfasında müşteri atanır ve gerekli ürün/hizmetler entegre edilir.
+	4.	Proje İlerleme Yönetimi:
+	•	Proje devam ederken durum filtrelenir ve revizyonlar eklenir.
+	5.	Proje Teslimi:
+	•	Nihai dosyalar müşteriye teslim edilir ve proje kapatma işlemi yapılır.
+	6.	Kayıt Altına Alma:
+	•	Proje, tamamlandığı tarih ve teslim edilen dosyalarla birlikte sistemde arşivlenir.
+
+3. Müşteri Paneli
+	•	Tüm Müşteri Bilgileri:
+	•	İsim, iletişim bilgileri, projeler ve ödeme geçmişleri listelenir.
+	•	Yeni Müşteri ve Proje Ekleme:
+	•	“Yeni Müşteri”, “Yeni Proje” düğmesiyle hem yeni müşteri hem de o müşteri adına yeni bir proje oluşturulabilir.
+	•	Müşteri İşlemleri:
+	•	Yeni müşteri ekleme, düzenleme ve projelere atanması.
+
+4. Ürün Paneli
+
+a. Ürün ve Hizmet Listesi
+	•	Ürünler ve hizmetler ayrı kategoriler altında gösterilir.
+	•	Ürün ve hizmet bilgileri:
+	•	Açıklama: Ürünün veya hizmetin detaylı açıklaması.
+	•	Fiyat: Her bir ürün veya hizmet için ayrı birim fiyat.
+	•	Aktif/Pasif Durumu: Ürünün/hizmetin aktif olarak kullanılabilir olup olmadığını belirler.
+	•	Karşılanabilirlik: Stok durumu veya hizmetin erişilebilirliği.
+
+b. Ürün Yönetimi
+	•	Yeni ürün veya hizmet ekleme:
+	•	Tanımlama sırasında isim, açıklama, fiyat, resim ve durum bilgileri girilir.
+
+c. Muhasebe Entegrasyonu
+	•	Projelere atanan ürün ve hizmetler otomatik olarak muhasebe paneline yansır.
+
+d. Ürün ve Hizmet Özellikleri
+	•	Detaylı bilgiler, fiyat geçmişi ve görsellerle desteklenir.
+
+e. Örnek İş Akışı:
+	1.	Yeni ürün/hizmet eklenir.
+	2.	Projeye atanır.
+	3.	Fatura detaylarına eklenir.
+
+5. Muhasebe Paneli
+	•	Fatura Oluşturma: Projeler ve ürünlerden gelen bilgilerle otomatik fatura oluşturulabilir.
+	•	Gelir-Gider Takibi: Tüm gelir ve gider hareketlerini yönetir.
+	•	Fatura Durumu Takibi: Ödeme durumu (ödenmiş, beklemede vb.) görüntülenir.
+
+Metin artık tek seferde kolayca kopyalanabilir! 😊
+            
+            
+            AIzaSyA7KjiQEL0-gXJQNAUS1n_IVzzhBQ-0KFE takvim Api
